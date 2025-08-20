@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_32e479a134b5d2bc1a6b4be77135ab1f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_32e479a134b5d2bc1a6b4be77135ab1f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_32e479a134b5d2bc1a6b4be77135ab1f = L.map(
+                "map_32e479a134b5d2bc1a6b4be77135ab1f",
+                {
+                    center: [38.899084910400816, -77.02868989648132],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_49a4b6b40ff35d30e0aa575b010a318e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_49a4b6b40ff35d30e0aa575b010a318e.addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+            var circle_marker_2c14eb30ba824ea74404e50a7dbb2280 = L.circleMarker(
+                [38.90375, -77.06269],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 141.77, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_b8ec3b28146cce60935640cb809d77ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9ebfab4d3da0352228f20ca298b173d = $(`<div id="html_c9ebfab4d3da0352228f20ca298b173d" style="width: 100.0%; height: 100.0%;"><b>C & O Canal & Wisconsin Ave NW</b><br>Starts: 22980<br>Ends: 37157<br>Imbalance: -14177</div>`)[0];
+                popup_b8ec3b28146cce60935640cb809d77ed.setContent(html_c9ebfab4d3da0352228f20ca298b173d);
+            
+        
+
+        circle_marker_2c14eb30ba824ea74404e50a7dbb2280.bindPopup(popup_b8ec3b28146cce60935640cb809d77ed)
+        ;
+
+        
+    
+    
+            var circle_marker_22061d4cf82d188a0cfc960c0c70a00f = L.circleMarker(
+                [38.9101, -77.0444],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 139.79, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_07245c72cc1218d4990756fc573a3b31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_588a252179c53c5f153661ab53a2f9f6 = $(`<div id="html_588a252179c53c5f153661ab53a2f9f6" style="width: 100.0%; height: 100.0%;"><b>Massachusetts Ave & Dupont Circle NW</b><br>Starts: 62757<br>Ends: 76736<br>Imbalance: -13979</div>`)[0];
+                popup_07245c72cc1218d4990756fc573a3b31.setContent(html_588a252179c53c5f153661ab53a2f9f6);
+            
+        
+
+        circle_marker_22061d4cf82d188a0cfc960c0c70a00f.bindPopup(popup_07245c72cc1218d4990756fc573a3b31)
+        ;
+
+        
+    
+    
+            var circle_marker_7796ff35f45b676b597ac5cd4f5485fd = L.circleMarker(
+                [38.905303, -77.050264],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 129.67, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_3c79e7e071a7160ee0a7f2eb71d7a5c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ed74e6201cadb0d26b219025fa48780 = $(`<div id="html_7ed74e6201cadb0d26b219025fa48780" style="width: 100.0%; height: 100.0%;"><b>23rd & M St NW</b><br>Starts: 44180<br>Ends: 57147<br>Imbalance: -12967</div>`)[0];
+                popup_3c79e7e071a7160ee0a7f2eb71d7a5c8.setContent(html_7ed74e6201cadb0d26b219025fa48780);
+            
+        
+
+        circle_marker_7796ff35f45b676b597ac5cd4f5485fd.bindPopup(popup_3c79e7e071a7160ee0a7f2eb71d7a5c8)
+        ;
+
+        
+    
+    
+            var circle_marker_944c1493e3886c7cf3d24591a9af2bfe = L.circleMarker(
+                [38.89696, -77.00493],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 122.36, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_4dca1d55a931c8a38f74fbf220f4cf8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d098c8c9da7c9914bbbaddb2734399e = $(`<div id="html_3d098c8c9da7c9914bbbaddb2734399e" style="width: 100.0%; height: 100.0%;"><b>Columbus Circle / Union Station</b><br>Starts: 88240<br>Ends: 100476<br>Imbalance: -12236</div>`)[0];
+                popup_4dca1d55a931c8a38f74fbf220f4cf8f.setContent(html_3d098c8c9da7c9914bbbaddb2734399e);
+            
+        
+
+        circle_marker_944c1493e3886c7cf3d24591a9af2bfe.bindPopup(popup_4dca1d55a931c8a38f74fbf220f4cf8f)
+        ;
+
+        
+    
+    
+            var circle_marker_d8262099c58c3eeb55a39bd55148abb4 = L.circleMarker(
+                [38.902826, -77.060173],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 121.39, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_6892ff44ba2ed6cf5a35dd5be3ca2cf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_108391cd742536d8e86084ce9c5a14a9 = $(`<div id="html_108391cd742536d8e86084ce9c5a14a9" style="width: 100.0%; height: 100.0%;"><b>Thomas Jefferson St NW & Water/K St NW</b><br>Starts: 15920<br>Ends: 28059<br>Imbalance: -12139</div>`)[0];
+                popup_6892ff44ba2ed6cf5a35dd5be3ca2cf2.setContent(html_108391cd742536d8e86084ce9c5a14a9);
+            
+        
+
+        circle_marker_d8262099c58c3eeb55a39bd55148abb4.bindPopup(popup_6892ff44ba2ed6cf5a35dd5be3ca2cf2)
+        ;
+
+        
+    
+    
+            var circle_marker_0157cf488f65e49464d7e3e4344bb327 = L.circleMarker(
+                [38.8997, -77.023086],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 114.97, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_1c8afefb377d60ec0ff87e8cccb5ae5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25389f06f6867cb18476b738d27c98d6 = $(`<div id="html_25389f06f6867cb18476b738d27c98d6" style="width: 100.0%; height: 100.0%;"><b>8th & H St NW</b><br>Starts: 44291<br>Ends: 55788<br>Imbalance: -11497</div>`)[0];
+                popup_1c8afefb377d60ec0ff87e8cccb5ae5c.setContent(html_25389f06f6867cb18476b738d27c98d6);
+            
+        
+
+        circle_marker_0157cf488f65e49464d7e3e4344bb327.bindPopup(popup_1c8afefb377d60ec0ff87e8cccb5ae5c)
+        ;
+
+        
+    
+    
+            var circle_marker_89930d5dc39c73d74bc4e72a9fd57986 = L.circleMarker(
+                [38.8885525, -77.032427],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 106.8, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_356578319ca121cf573468651ecf5f48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ade718f22c9418208b1cf13807bd6c24 = $(`<div id="html_ade718f22c9418208b1cf13807bd6c24" style="width: 100.0%; height: 100.0%;"><b>Jefferson Dr & 14th St SW</b><br>Starts: 56901<br>Ends: 67581<br>Imbalance: -10680</div>`)[0];
+                popup_356578319ca121cf573468651ecf5f48.setContent(html_ade718f22c9418208b1cf13807bd6c24);
+            
+        
+
+        circle_marker_89930d5dc39c73d74bc4e72a9fd57986.bindPopup(popup_356578319ca121cf573468651ecf5f48)
+        ;
+
+        
+    
+    
+            var circle_marker_88ea2c8418843500c60406c32fd2f87f = L.circleMarker(
+                [38.905697, -77.005483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 102.87, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_8fc5dd8e1d292912f54ec9345be09aec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_901c20a47b081f2bdc726046214f8ef0 = $(`<div id="html_901c20a47b081f2bdc726046214f8ef0" style="width: 100.0%; height: 100.0%;"><b>1st & M St NE</b><br>Starts: 74195<br>Ends: 84482<br>Imbalance: -10287</div>`)[0];
+                popup_8fc5dd8e1d292912f54ec9345be09aec.setContent(html_901c20a47b081f2bdc726046214f8ef0);
+            
+        
+
+        circle_marker_88ea2c8418843500c60406c32fd2f87f.bindPopup(popup_8fc5dd8e1d292912f54ec9345be09aec)
+        ;
+
+        
+    
+    
+            var circle_marker_4e50f12482c9aa2f251fc050a79500c2 = L.circleMarker(
+                [38.90980062655191, -77.03442692756653],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 102.79, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_23b52b0738bcc1cd6692f5e851bf5b21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21e7faf3cff2e975c85b637f4a6579ab = $(`<div id="html_21e7faf3cff2e975c85b637f4a6579ab" style="width: 100.0%; height: 100.0%;"><b>15th & P St NW</b><br>Starts: 80567<br>Ends: 90846<br>Imbalance: -10279</div>`)[0];
+                popup_23b52b0738bcc1cd6692f5e851bf5b21.setContent(html_21e7faf3cff2e975c85b637f4a6579ab);
+            
+        
+
+        circle_marker_4e50f12482c9aa2f251fc050a79500c2.bindPopup(popup_23b52b0738bcc1cd6692f5e851bf5b21)
+        ;
+
+        
+    
+    
+            var circle_marker_5258bf7bf1ccc223602962d580eaeaf4 = L.circleMarker(
+                [38.905126, -77.056887],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 99.47, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_fdaf1dfe7af63bca785c4134db38274a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24a61827f0d8d7dc7a1703e87efc7337 = $(`<div id="html_24a61827f0d8d7dc7a1703e87efc7337" style="width: 100.0%; height: 100.0%;"><b>M St & Pennsylvania Ave NW</b><br>Starts: 43279<br>Ends: 53226<br>Imbalance: -9947</div>`)[0];
+                popup_fdaf1dfe7af63bca785c4134db38274a.setContent(html_24a61827f0d8d7dc7a1703e87efc7337);
+            
+        
+
+        circle_marker_5258bf7bf1ccc223602962d580eaeaf4.bindPopup(popup_fdaf1dfe7af63bca785c4134db38274a)
+        ;
+
+        
+    
+    
+            var circle_marker_f05de8d125da5df0af49fc227245b2f8 = L.circleMarker(
+                [38.87869359939696, -77.02305436134338],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 98.87, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_1c297dd88547998b99a677ded14b66de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ccbefa3f119b2a88f4977c79b5855bb = $(`<div id="html_5ccbefa3f119b2a88f4977c79b5855bb" style="width: 100.0%; height: 100.0%;"><b>Maine Ave & 7th St SW</b><br>Starts: 36798<br>Ends: 46685<br>Imbalance: -9887</div>`)[0];
+                popup_1c297dd88547998b99a677ded14b66de.setContent(html_5ccbefa3f119b2a88f4977c79b5855bb);
+            
+        
+
+        circle_marker_f05de8d125da5df0af49fc227245b2f8.bindPopup(popup_1c297dd88547998b99a677ded14b66de)
+        ;
+
+        
+    
+    
+            var circle_marker_0d3556528518410b4532fc034f78ac4a = L.circleMarker(
+                [38.905509, -77.065246],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 94.19, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_a11d1474c803f4d5cfb7aabcb6ebf04c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7a2edd1223aeeb81a83e7cc8aab7f6d = $(`<div id="html_f7a2edd1223aeeb81a83e7cc8aab7f6d" style="width: 100.0%; height: 100.0%;"><b>Potomac & M St NW</b><br>Starts: 18780<br>Ends: 28199<br>Imbalance: -9419</div>`)[0];
+                popup_a11d1474c803f4d5cfb7aabcb6ebf04c.setContent(html_f7a2edd1223aeeb81a83e7cc8aab7f6d);
+            
+        
+
+        circle_marker_0d3556528518410b4532fc034f78ac4a.bindPopup(popup_a11d1474c803f4d5cfb7aabcb6ebf04c)
+        ;
+
+        
+    
+    
+            var circle_marker_1f93c1ea66eb57b6eedf830668578ffa = L.circleMarker(
+                [38.913046, -77.032008],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 93.44, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_b86bdcd3212c8bf8a24c5b8d1d37a612 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9260e3bbdfce5fa1f726b1fbe2f605ea = $(`<div id="html_9260e3bbdfce5fa1f726b1fbe2f605ea" style="width: 100.0%; height: 100.0%;"><b>14th & R St NW</b><br>Starts: 57670<br>Ends: 67014<br>Imbalance: -9344</div>`)[0];
+                popup_b86bdcd3212c8bf8a24c5b8d1d37a612.setContent(html_9260e3bbdfce5fa1f726b1fbe2f605ea);
+            
+        
+
+        circle_marker_1f93c1ea66eb57b6eedf830668578ffa.bindPopup(popup_b86bdcd3212c8bf8a24c5b8d1d37a612)
+        ;
+
+        
+    
+    
+            var circle_marker_2f99331c54ce048e4859870bf9de82a7 = L.circleMarker(
+                [38.899972, -76.998347],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 92.53, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_d73e8fbfa4166d713a465f94fcdb1a22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a28e4fc7d76a1f99d603b7a0640f0171 = $(`<div id="html_a28e4fc7d76a1f99d603b7a0640f0171" style="width: 100.0%; height: 100.0%;"><b>6th & H St NE</b><br>Starts: 51061<br>Ends: 60314<br>Imbalance: -9253</div>`)[0];
+                popup_d73e8fbfa4166d713a465f94fcdb1a22.setContent(html_a28e4fc7d76a1f99d603b7a0640f0171);
+            
+        
+
+        circle_marker_2f99331c54ce048e4859870bf9de82a7.bindPopup(popup_d73e8fbfa4166d713a465f94fcdb1a22)
+        ;
+
+        
+    
+    
+            var circle_marker_0779c3bd81a4b446c4d194214c3e0e26 = L.circleMarker(
+                [38.88409514578027, -76.99523448944092],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 92.05, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_11a4393d331646a30cd38e3e2e3e2a92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_280b020ea496824b22f7acca949bb324 = $(`<div id="html_280b020ea496824b22f7acca949bb324" style="width: 100.0%; height: 100.0%;"><b>Eastern Market Metro / Pennsylvania Ave & 8th St SE</b><br>Starts: 58514<br>Ends: 67719<br>Imbalance: -9205</div>`)[0];
+                popup_11a4393d331646a30cd38e3e2e3e2a92.setContent(html_280b020ea496824b22f7acca949bb324);
+            
+        
+
+        circle_marker_0779c3bd81a4b446c4d194214c3e0e26.bindPopup(popup_11a4393d331646a30cd38e3e2e3e2a92)
+        ;
+
+        
+    
+    
+            var circle_marker_1d8963d243013021dcdba765a2dd49ff = L.circleMarker(
+                [38.89728304853854, -77.02219069004059],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 91.75, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_808b708112b49aba0609fe5b0cb48482 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c40ab8cc69710f423de2e0479dc80ab5 = $(`<div id="html_c40ab8cc69710f423de2e0479dc80ab5" style="width: 100.0%; height: 100.0%;"><b>7th & F St NW / National Portrait Gallery</b><br>Starts: 41500<br>Ends: 50675<br>Imbalance: -9175</div>`)[0];
+                popup_808b708112b49aba0609fe5b0cb48482.setContent(html_c40ab8cc69710f423de2e0479dc80ab5);
+            
+        
+
+        circle_marker_1d8963d243013021dcdba765a2dd49ff.bindPopup(popup_808b708112b49aba0609fe5b0cb48482)
+        ;
+
+        
+    
+    
+            var circle_marker_0bc80f057467e3f8cf401631dfc0ac26 = L.circleMarker(
+                [38.897108, -77.011616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 91.66, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_18414a0af8b7edeaa986ac660b7fb830 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47757bf582b5af2a5718e4b4d76f3ae9 = $(`<div id="html_47757bf582b5af2a5718e4b4d76f3ae9" style="width: 100.0%; height: 100.0%;"><b>New Jersey Ave & F St NW</b><br>Starts: 41785<br>Ends: 50951<br>Imbalance: -9166</div>`)[0];
+                popup_18414a0af8b7edeaa986ac660b7fb830.setContent(html_47757bf582b5af2a5718e4b4d76f3ae9);
+            
+        
+
+        circle_marker_0bc80f057467e3f8cf401631dfc0ac26.bindPopup(popup_18414a0af8b7edeaa986ac660b7fb830)
+        ;
+
+        
+    
+    
+            var circle_marker_52cac2efea80a6f9685b88db6b1cc705 = L.circleMarker(
+                [38.90304, -77.019027],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90.64, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_973149f14093b00fd29e688bf3cadb49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9c1105ec2887dc3d259330e1eba9636 = $(`<div id="html_e9c1105ec2887dc3d259330e1eba9636" style="width: 100.0%; height: 100.0%;"><b>5th & K St NW</b><br>Starts: 67201<br>Ends: 76265<br>Imbalance: -9064</div>`)[0];
+                popup_973149f14093b00fd29e688bf3cadb49.setContent(html_e9c1105ec2887dc3d259330e1eba9636);
+            
+        
+
+        circle_marker_52cac2efea80a6f9685b88db6b1cc705.bindPopup(popup_973149f14093b00fd29e688bf3cadb49)
+        ;
+
+        
+    
+    
+            var circle_marker_e0ae3ce0ea8996995209346e9ffc0a92 = L.circleMarker(
+                [38.89824328774852, -77.02623546123505],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 88.59, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_e3b56e5a4ddfdda078d09370ecde712b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74279e64f5c34efed501bab71d80d862 = $(`<div id="html_74279e64f5c34efed501bab71d80d862" style="width: 100.0%; height: 100.0%;"><b>10th & G St NW</b><br>Starts: 17866<br>Ends: 26725<br>Imbalance: -8859</div>`)[0];
+                popup_e3b56e5a4ddfdda078d09370ecde712b.setContent(html_74279e64f5c34efed501bab71d80d862);
+            
+        
+
+        circle_marker_e0ae3ce0ea8996995209346e9ffc0a92.bindPopup(popup_e3b56e5a4ddfdda078d09370ecde712b)
+        ;
+
+        
+    
+    
+            var circle_marker_5b10c9542b4e00319cbf711f874eeb3f = L.circleMarker(
+                [38.876893, -77.006072],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 86.24, "stroke": true, "weight": 3}
+            ).addTo(map_32e479a134b5d2bc1a6b4be77135ab1f);
+        
+    
+        var popup_e29c5b3681f7cd92c4b3fbfa2d204b27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93246214aa6b1af3d91718f958699032 = $(`<div id="html_93246214aa6b1af3d91718f958699032" style="width: 100.0%; height: 100.0%;"><b>1st & M St SE</b><br>Starts: 27185<br>Ends: 35809<br>Imbalance: -8624</div>`)[0];
+                popup_e29c5b3681f7cd92c4b3fbfa2d204b27.setContent(html_93246214aa6b1af3d91718f958699032);
+            
+        
+
+        circle_marker_5b10c9542b4e00319cbf711f874eeb3f.bindPopup(popup_e29c5b3681f7cd92c4b3fbfa2d204b27)
+        ;
+
+        
+    
+</script>
+</html>
